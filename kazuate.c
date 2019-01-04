@@ -36,7 +36,7 @@ int main(void)
         printf("回答正确！\n");
         printf("您用%d次猜中了。\n", stage);
     }
-    puts("\n---输入记录---")；
+    puts("\n---输入记录---");
     for (i = 0; i < stage; i++)
         printf("%2d : %4d %+4d\n", i+1, num[i], num[i]-ans);
     
